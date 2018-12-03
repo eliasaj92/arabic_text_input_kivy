@@ -1,0 +1,8 @@
+<Ar_text@TextInput>:
+    text: "whatever"
+    multiline: 0
+    size_hint: 1,1
+    font_name: "data/unifont-11.0.02.ttf" # the font you want to use
+    font_size: 26
+    padding_y: [15,0] # can be changed
+    padding_x: [self.size[0]-self._get_text_width(max(self._lines, key=len), self.tab_width, self._label_cached)-10,8]
